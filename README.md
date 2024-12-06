@@ -1,79 +1,36 @@
-<h1>Build a Duolingo Clone With Nextjs, React, Drizzle, Stripe (2024)</h1>
-<h3>This is a repository for a "Build a Duolingo Clone With Nextjs, React, Drizzle, Stripe (2024)</h3>
-Key Features:
-- 🌐 Next.js 14 & server actions
-- 🗣 AI Voices using Elevenlabs AI
-- 🎨 Beautiful component system using Shadcn UI
-- 🎭 Amazing characters thanks to KenneyNL
-- 🔐 Auth using Clerk
-- 🔊 Sound effects
-- ❤️ Hearts system
-- 🌟 Points / XP system
-- 💔 No hearts left popup
-- 🚪 Exit confirmation popup
-- 🔄 Practice old lessons to regain hearts
-- 🏆 Leaderboard
-- 🗺 Quests milestones
-- 🛍 Shop system to exchange points with hearts
-- 💳 Pro tier for unlimited hearts using Stripe
-- 🏠 Landing page
-- 📊 Admin dashboard React Admin
-- 🌧 ORM using DrizzleORM
-- 💾 PostgresDB using NeonDB
-- 🚀 Deployment on Vercel
-- 📱 Mobile responsiveness
+A feature-rich, interactive language-learning platform inspired by Duolingo. Built with modern web technologies for an immersive user experience.
 
-### Prerequisites
+---
 
-**Node version 14.x**
+## 🎯 Key Features
+- **Dynamic Learning Mechanics**:
+  - 🌟 Points and XP tracking system.
+  - ❤️ Hearts system for gamified engagement.
+  - 💔 Recover hearts via practice mode or progress quests.
+  - 🏆 Leaderboard to showcase achievements.
+- **AI Integration**:
+  - 🗣 Realistic voice synthesis powered by Elevenlabs AI.
+  - 🔊 Engaging sound effects for enhanced interactivity.
+- **UI and User Management**:
+  - 🎨 Responsive design with Shadcn UI.
+  - 🔐 Authentication with Clerk for secure user management.
+- **E-commerce Ready**:
+  - 💳 Pro-tier subscriptions using Stripe for unlimited hearts.
+- **Developer Tools**:
+  - 🌧 ORM powered by Drizzle for seamless database management.
+  - 💾 PostgresDB hosted on NeonDB.
 
-### Cloning the repository
+---
 
-```shell
-git clone https://github.com/bouzayenilyes/lingo.git
-```
+## 🛠️ Tech Stack
+### **Frontend**:
+- Next.js 14  
+- Shadcn UI  
+- TailwindCSS  
 
-### Install packages
+### **Backend**:
+- Drizzle ORM  
+- PostgresDB  
+- Stripe  
 
-```shell
-npm i
-```
-
-### Setup .env file
-
-
-```js
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=""
-CLERK_SECRET_KEY=""
-DATABASE_URL="postgresql://..."
-STRIPE_API_KEY=""
-NEXT_PUBLIC_APP_URL="http://localhost:3000"
-STRIPE_WEBHOOK_SECRET=""
-```
-
-### Setup Drizzle ORM
-
-```shell
-npm run db:push
-
-```
-
-### Seed the app
-
-```shell
-npm run db:seed
-
-```
-
-or
-
-```shell
-npm run db:prod
-
-```
-
-### Start the app
-
-```shell
-npm run dev
-```
+---
