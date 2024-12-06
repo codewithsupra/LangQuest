@@ -3,9 +3,13 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <footer className="hidden lg:block h-20 w-full border-t-2 border-slate-200 p-2">
+    <footer className="hidden lg:block h-20 w-full border-t-2 border-slate-200 p-2 bg-gradient-to-r from-teal-500 to-blue-500">
       <div className="max-w-screen-lg mx-auto flex items-center justify-evenly h-full">
-        <Button size="lg" variant="ghost" className="w-full">
+        <Button
+          size="lg"
+          variant="ghost"
+          className="w-full text-white hover:bg-teal-600 focus:outline-none transition duration-300"
+        >
           <Image 
             src="/hr.svg" 
             alt="Croatian" 
@@ -15,7 +19,11 @@ export const Footer = () => {
           />
           Croatian
         </Button>
-        <Button size="lg" variant="ghost" className="w-full">
+        <Button
+          size="lg"
+          variant="ghost"
+          className="w-full text-white hover:bg-teal-600 focus:outline-none transition duration-300"
+        >
           <Image 
             src="/es.svg" 
             alt="Spanish" 
@@ -25,7 +33,11 @@ export const Footer = () => {
           />
           Spanish
         </Button>
-        <Button size="lg" variant="ghost" className="w-full">
+        <Button
+          size="lg"
+          variant="ghost"
+          className="w-full text-white hover:bg-teal-600 focus:outline-none transition duration-300"
+        >
           <Image 
             src="/fr.svg" 
             alt="French" 
@@ -35,7 +47,11 @@ export const Footer = () => {
           />
           French
         </Button>
-        <Button size="lg" variant="ghost" className="w-full">
+        <Button
+          size="lg"
+          variant="ghost"
+          className="w-full text-white hover:bg-teal-600 focus:outline-none transition duration-300"
+        >
           <Image 
             src="/it.svg" 
             alt="Italian" 
@@ -45,7 +61,11 @@ export const Footer = () => {
           />
           Italian
         </Button>
-        <Button size="lg" variant="ghost" className="w-full">
+        <Button
+          size="lg"
+          variant="ghost"
+          className="w-full text-white hover:bg-teal-600 focus:outline-none transition duration-300"
+        >
           <Image 
             src="/jp.svg" 
             alt="Japanese" 
